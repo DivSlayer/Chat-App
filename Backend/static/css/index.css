@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page-container {
+    background-color: #b1b1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 80%;
+    max-width: 500px;
+    padding: 2rem;
+    max-height: 80vh;
+    background-color: #eef0f2;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-rows: fit-content auto fit-content;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.message-input {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+textarea {
+    height: 5rem;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #dadee1;
+    border-radius: 0.5rem;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0.75rem;
+    background-color: #1b1f24;
+    border-radius: 2rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.25s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #353a41;
+}
+
+.file-button {
+    background-color: #4CAF50;
+}
+
+.file-button:hover {
+    background-color: #45a049;
+}
+
+.single-message {
+    width: fit-content;
+    max-width: 60%;
+    clear: both;
+    margin-bottom: 1rem;
+}
+
+.msg-body {
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    background-color: #ff7300;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    word-wrap: break-word;
+}
+
+.file-msg {
+    background-color: #4CAF50 !important;
+}
+
+.sent {
+    float: right;
+}
+
+.sent > .msg-body {
+    background-color: #8c00ff;
+}
+
+.sender {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.chats-container {
+    width: 100%;
+    height: 20rem;
+    overflow-y: scroll;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.chats-container::-webkit-scrollbar {
+    display: none;
+}
+
+.file-link {
+    color: white;
+    text-decoration: underline;
+}
+
+#fileInput {
+    display: none;
+}

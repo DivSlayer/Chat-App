@@ -1,0 +1,236 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{ room_name }} Chat Room</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+<div class="page-container">
+    <div class="content">
+        <h1>Welcome to {{ room_name }}</h1>
+        <div class="chats-container" id="chats-container">
+
+        </div>
+
+        <div class="controls">
+            <div class="message-input">
+                <textarea name="message" id="message" cols="30" rows="3" placeholder="Enter your message"></textarea>
+                <div class="buttons">
+                    <input type="file" id="fileInput">
+                    <button type="button" class="file-button" onclick="document.getElementById('fileInput').click()">
+                        📎 File
+                    </button>
+                    <button type="submit" id="sendButton" form="msg-form">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Loads Chat History
+    window.addEventListener('DOMContentLoaded', () => {
+        fetch(`/api/messages/{{room_name}}/`)
+            .then(response => response.json())
+            .then(messages => {
+                const chatsDiv = document.getElementById('chats-container');
+                messages.forEach(data => {
+                    const isCurrentUser = data.sender === "{{user}}";
+                    const messageType = data.message_type || 'text';
+                    let messageContent;
+                    if (messageType === 'file') {
+                        messageContent = `<a href="${data.file_url}" class="file-link" download>Download ${data.file_url.split('/').pop()}</a>`;
+                    } else {
+                        messageContent = data.message.replace(/\n/g, '<br>');
+                    }
+
+                    const messageHTML = `
+                        <div class="single-message ${isCurrentUser ? 'sent' : ''}">
+                            <div class="msg-body ${messageType === 'file' ? 'file-msg' : ''}">
+                                ${messageContent}
+                            </div>
+                            <p class="sender">${isCurrentUser ? 'Me' : data.sender}</p>
+                        </div>
+                    `;
+                    chatsDiv.innerHTML += messageHTML;
+                });
+                scrollToBottom();
+            })
+            .catch(error => console.error('Error loading messages:', error));
+    });
+
+    const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+    const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'application/pdf'];
+    const socketURL = `ws://${window.location.host}/ws/messages/{{room_name}}/`;
+    let socket;
+    let reconnectDelay = 1000; // Initial reconnect delay (1 second)
+    const MAX_RECONNECT_DELAY = 30000; // Maximum 30 seconds
+
+    function connectWebSocket() {
+        socket = new WebSocket(socketURL);
+
+        socket.onopen = function (e) {
+            console.log("WebSocket connected");
+            reconnectDelay = 1000; // Reset delay after successful connection
+        };
+
+        socket.onmessage = function (e) {
+            // Existing message handling logic
+            const data = JSON.parse(e.data).message;
+            const isCurrentUser = data.sender === "{{user}}";
+            const messageType = data.message_type || 'text';
+            let messageContent;
+
+            if (messageType === 'file') {
+                messageContent = `<a href="/media/${data.file}" class="file-link" download="${data.file_name}">Download ${data.file_name}</a>`;
+            } else {
+                messageContent = data.message.replace(/\n/g, '<br>');
+            }
+
+            AddMessage(isCurrentUser, messageType, messageContent, data);
+            scrollToBottom();
+        };
+
+        socket.onclose = function (e) {
+            console.log(`WebSocket closed. Reconnecting in ${reconnectDelay}ms...`);
+            setTimeout(connectWebSocket, reconnectDelay);
+            // Exponential backoff with max limit
+            reconnectDelay = Math.min(reconnectDelay * 2, MAX_RECONNECT_DELAY);
+        };
+
+        socket.onerror = function (err) {
+            console.error("WebSocket error:", err);
+            socket.close(); // Ensure close event is triggered
+        };
+    }
+
+    // Initial connection
+    connectWebSocket();
+
+    // Modified sendTextMessage with connection check
+    function sendTextMessage() {
+        const messageInput = document.getElementById('message');
+        const message = messageInput.value.trim();
+
+        if (message && socket.readyState === WebSocket.OPEN) {
+            socket.send(JSON.stringify({
+                message: message,
+                room_name: "{{room_name}}",
+                sender: "{{user}}",
+                message_type: "text"
+            }));
+            messageInput.value = '';
+        } else if (socket.readyState !== WebSocket.OPEN) {
+            console.error("WebSocket not connected. Message not sent.");
+        }
+    }
+
+    // Message form handling
+    document.getElementById('message').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendTextMessage();
+        }
+    });
+
+    function sendFile() {
+        let xhr = new XMLHttpRequest();
+        let formData = new FormData();
+        const file = document.getElementById('fileInput').files[0];
+        let progress;
+        formData.append('file', file);
+        {#'sender', 'message', 'file_url', 'message_type',#}
+        formData.append('sender', "{{user}}");
+        formData.append('message', "");
+        formData.append('message_type', 'file')
+
+        xhr.open("Post", `http://${window.location.host}/api/messages/{{ room_name }}/file`, true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.upload.addEventListener('progress', function (e) {
+            if (e.lengthComputable) {
+                const percentComplete = (e.loaded / e.total) * 100;
+                progress = percentComplete;
+                console.log(`Uploaded ${Math.round(percentComplete)}%`)
+            }
+        });
+        // Event listener for completion
+        xhr.onload = function () {
+            if (xhr.status.toString().substring(0, 1) !== "4") {
+                let data = JSON.parse(xhr.responseText);
+                let messageContent = `<a href="${data.file_url}" class="file-link" download="${data.file_name}">Download ${data.file_name}</a>`;
+                AddMessage(true, 'file', messageContent, data);
+                console.log('Upload successful!')
+            } else {
+                alert("Something went wrong")
+                console.log("Upload failed. Please try again.");
+            }
+        };
+        xhr.send(formData);
+
+    }
+
+    const chatsDiv = document.getElementById('chats-container');
+    // File handling
+    document.getElementById('fileInput').addEventListener('change', function (e) {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        if (!ALLOWED_TYPES.includes(file.type)) {
+            alert('Only JPG, PNG, and PDF files are allowed!');
+            return;
+        }
+
+        if (file.size > MAX_FILE_SIZE) {
+            alert('File size must be less than 5MB!');
+            return;
+        }
+        sendFile();
+    });
+
+    // Message reception handling
+
+    function AddMessage(isCurrentUser, messageType, messageContent, data) {
+        const messageHTML = `
+        <div class="single-message ${isCurrentUser ? 'sent' : ''}">
+          <div class="msg-body ${messageType === 'file' ? 'file-msg' : ''}">
+            ${messageContent}
+          </div>
+          <p class="sender">${isCurrentUser ? 'Me' : data.sender}</p>
+        </div>
+      `;
+
+        chatsDiv.innerHTML += messageHTML;
+    }
+
+    socket.addEventListener('message', (e) => {
+        const data = JSON.parse(e.data).message;
+        const isCurrentUser = data.sender === "{{user}}";
+        const messageType = data.message_type || 'text';
+        let messageContent;
+        console.log('sending message');
+        console.log(data);
+        if (messageType === 'file') {
+            messageContent = `<a href="/media/${data.file}" class="file-link" download="${data.file_name}">Download ${data.file_name}</a>`;
+        } else {
+            messageContent = data.message.replace(/\n/g, '<br>');
+        }
+        AddMessage(isCurrentUser, messageType, messageContent, data);
+        scrollToBottom();
+    });
+
+    function scrollToBottom() {
+        chatsDiv.scrollTop = chatsDiv.scrollHeight;
+    }
+
+    // Initial scroll to bottom
+    scrollToBottom();
+</script>
+</body>
+</html>

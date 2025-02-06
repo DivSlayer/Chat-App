@@ -1,0 +1,1224 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ProtocolTypeRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "URLRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "wsPattern",
+        "importPath": "chat.routing",
+        "description": "chat.routing",
+        "isExtraImport": true,
+        "detail": "chat.routing",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncWebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "isExtraImport": true,
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "database_sync_to_async",
+        "importPath": "channels.db",
+        "description": "channels.db",
+        "isExtraImport": true,
+        "detail": "channels.db",
+        "documentation": {}
+    },
+    {
+        "label": "ContentFile",
+        "importPath": "django.core.files.base",
+        "description": "django.core.files.base",
+        "isExtraImport": true,
+        "detail": "django.core.files.base",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "isExtraImport": true,
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "isExtraImport": true,
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "isExtraImport": true,
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "isExtraImport": true,
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "isExtraImport": true,
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "netifaces",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "netifaces",
+        "description": "netifaces",
+        "detail": "netifaces",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "ipaddress",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ipaddress",
+        "description": "ipaddress",
+        "detail": "ipaddress",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "http_response_app",
+        "kind": 5,
+        "importPath": "backend.asgi",
+        "description": "backend.asgi",
+        "peekOfCode": "http_response_app = get_asgi_application()\napplication = ProtocolTypeRouter(\n    {\"http\": http_response_app, \"websocket\": URLRouter(wsPattern)}\n)",
+        "detail": "backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.asgi",
+        "description": "backend.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter(\n    {\"http\": http_response_app, \"websocket\": URLRouter(wsPattern)}\n)",
+        "detail": "backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-^ha21r(u@l^=d)10pbph&_7g^0_8@p843!9_74@%)z8=u^)y6d\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-^ha21r(u@l^=d)10pbph&_7g^0_8@p843!9_74@%)z8=u^)y6d\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    \"daphne\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    \"daphne\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    \"daphne\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"daphne\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"channels\",\n    \"corsheaders\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:8000\",\n    \"http://127.0.0.1:8000\"\n]\nROOT_URLCONF = \"backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"templates\"],\n        \"APP_DIRS\": True,",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ROOT_URLCONF = \"backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ASGI_APPLICATION = \"backend.asgi.application\"\nWSGI_APPLICATION = \"backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nMEDIA_URL = \"/media/\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, \"static\")\n]\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nMEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\"default\": {\"BACKEND\": \"channels.layers.InMemoryChannelLayer\"}}",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.urls",
+        "description": "backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"chat.urls\"))\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\nurlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
+        "detail": "backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.wsgi",
+        "description": "backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0001_initial",
+        "description": "chat.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Room',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('room_name', models.CharField(max_length=50)),",
+        "detail": "chat.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0002_message_file_message_message_type",
+        "description": "chat.migrations.0002_message_file_message_message_type",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='message',\n            name='file',\n            field=models.FileField(blank=True, null=True, upload_to='chat_files/'),\n        ),",
+        "detail": "chat.migrations.0002_message_file_message_message_type",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0003_message_created_at",
+        "description": "chat.migrations.0003_message_created_at",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0002_message_file_message_message_type'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='message',\n            name='created_at',\n            field=models.DateTimeField(auto_now_add=True, null=True),\n        ),",
+        "detail": "chat.migrations.0003_message_created_at",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0004_alter_message_message",
+        "description": "chat.migrations.0004_alter_message_message",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0003_message_created_at'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='message',\n            name='message',\n            field=models.TextField(blank=True),\n        ),",
+        "detail": "chat.migrations.0004_alter_message_message",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0005_message_sender_ip",
+        "description": "chat.migrations.0005_message_sender_ip",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0004_alter_message_message'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='message',\n            name='sender_ip',\n            field=models.CharField(max_length=50, null=True),\n        ),",
+        "detail": "chat.migrations.0005_message_sender_ip",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chat.migrations.0006_remove_message_sender_ip_alter_message_sender",
+        "description": "chat.migrations.0006_remove_message_sender_ip_alter_message_sender",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Client', '0001_initial'),\n        ('chat', '0005_message_sender_ip'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='message',\n            name='sender_ip',\n        ),",
+        "detail": "chat.migrations.0006_remove_message_sender_ip_alter_message_sender",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConfig",
+        "kind": 6,
+        "importPath": "chat.apps",
+        "description": "chat.apps",
+        "peekOfCode": "class ChatConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'chat'",
+        "detail": "chat.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConsumer",
+        "kind": 6,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "class ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        # self.room_name = f\"room_{self.scope['url_route']['kwargs']['room_name']}\"\n        self.room_name = f\"main_room\"\n        await self.channel_layer.group_add(self.room_name, self.channel_name)\n        await self.accept()\n    async def disconnect(self, code):\n        await self.remove_client()\n        await self.channel_layer.group_discard(self.room_name, self.channel_name)\n        await self.close(code)",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_TYPES",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "ALLOWED_TYPES = ['jpeg', 'jpg', 'png', 'doc', 'docx', 'pptp', 'pptpx', 'pdf']\nMAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB\nclass ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        # self.room_name = f\"room_{self.scope['url_route']['kwargs']['room_name']}\"\n        self.room_name = f\"main_room\"\n        await self.channel_layer.group_add(self.room_name, self.channel_name)\n        await self.accept()\n    async def disconnect(self, code):\n        await self.remove_client()",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FILE_SIZE",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB\nclass ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        # self.room_name = f\"room_{self.scope['url_route']['kwargs']['room_name']}\"\n        self.room_name = f\"main_room\"\n        await self.channel_layer.group_add(self.room_name, self.channel_name)\n        await self.accept()\n    async def disconnect(self, code):\n        await self.remove_client()\n        await self.channel_layer.group_discard(self.room_name, self.channel_name)",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "chat.models",
+        "description": "chat.models",
+        "peekOfCode": "class Room(models.Model):\n    room_name = models.CharField(max_length=50)\n    def __str__(self):\n        return self.room_name\nclass Message(models.Model):\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    sender = models.ForeignKey(Client, on_delete=models.CASCADE)\n    message = models.TextField(blank=True)\n    file = models.FileField(upload_to='chat_files/', blank=True, null=True)\n    message_type = models.CharField(max_length=10, default='text')",
+        "detail": "chat.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "chat.models",
+        "description": "chat.models",
+        "peekOfCode": "class Message(models.Model):\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    sender = models.ForeignKey(Client, on_delete=models.CASCADE)\n    message = models.TextField(blank=True)\n    file = models.FileField(upload_to='chat_files/', blank=True, null=True)\n    message_type = models.CharField(max_length=10, default='text')\n    created_at = models.DateTimeField(auto_now_add=True, null=True)\n    def __str__(self):\n        return f\"{str(self.room)} - {self.sender}\"",
+        "detail": "chat.models",
+        "documentation": {}
+    },
+    {
+        "label": "wsPattern",
+        "kind": 5,
+        "importPath": "chat.routing",
+        "description": "chat.routing",
+        "peekOfCode": "wsPattern = [path(\"ws/messages/<str:room_name>/\", ChatConsumer.as_asgi())]",
+        "detail": "chat.routing",
+        "documentation": {}
+    },
+    {
+        "label": "MessageSerializer",
+        "kind": 6,
+        "importPath": "chat.serializers",
+        "description": "chat.serializers",
+        "peekOfCode": "class MessageSerializer(serializers.ModelSerializer):\n    sender = serializers.SerializerMethodField()\n    file_url = serializers.SerializerMethodField()\n    file_name = serializers.SerializerMethodField()\n    own = serializers.SerializerMethodField()\n    def get_file_url(self, obj):\n        if obj.file:\n            return obj.file.url\n        return None\n    def get_file_name(self, obj):",
+        "detail": "chat.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "chat.urls",
+        "description": "chat.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", HomeView, name=\"login\"),\n    path(\"<str:room_name>/<str:username>/\", RoomView, name=\"room\"),\n    path(\"api/messages/<str:room_name>/file\", UploadFileAPIView.as_view(), name=\"message-file\"),\n    path(\"api/messages/<str:room_name>/\", MessageHistoryView.as_view(), name=\"message-history\"),\n]",
+        "detail": "chat.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MessageHistoryView",
+        "kind": 6,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "class MessageHistoryView(APIView):\n    def get(self, request, room_name):\n        room = Room.objects.get(room_name='main_room')\n        messages = Message.objects.filter(room=room).order_by('created_at')\n        serializer = MessageSerializer(messages, many=True,\n                                       context={'request': request, \"ip\": get_client_ip_and_port(request), })\n        return Response(serializer.data)\nclass UploadFileAPIView(APIView):\n    def post(self, request, room_name):\n        try:",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFileAPIView",
+        "kind": 6,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "class UploadFileAPIView(APIView):\n    def post(self, request, room_name):\n        try:\n            serializer = MessageSerializer(data=request.data)\n            image_file = request.FILES.get('file', None)\n            user_ip = get_client_ip_and_port(request)\n            client = Client.objects.filter(ip__icontains=user_ip).first()\n            if client is None:\n                return Response({\"error\": \"Client not found.\"}, status=status.HTTP_404_NOT_FOUND)\n            if serializer.is_valid():",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_client_ip_and_port",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def get_client_ip_and_port(request):\n    \"\"\"\n    Helper method to get the client's IP address from the request.\n    \"\"\"\n    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')\n    if x_forwarded_for:\n        # If the request is forwarded, the IP is the first one in the list\n        ip = x_forwarded_for.split(',')[0]\n    else:\n        # Otherwise, use the remote address",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "HomeView",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def HomeView(request):\n    if request.method == \"POST\":\n        username = request.POST[\"username\"]\n        room = request.POST[\"room\"]\n        try:\n            existing_room = Room.objects.get(room_name__icontains=room)\n        except Room.DoesNotExist:\n            r = Room.objects.create(room_name=room)\n        return redirect(\"room\", room_name=room, username=username)\n    return render(request, \"home.html\")",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "RoomView",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def RoomView(request, room_name, username):\n    existing_room = Room.objects.get(room_name__icontains=room_name)\n    context = {\n        \"user\": username,\n        \"room_name\": existing_room.room_name,\n    }\n    return render(request, \"room.html\", context)\nclass MessageHistoryView(APIView):\n    def get(self, request, room_name):\n        room = Room.objects.get(room_name='main_room')",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "Client.migrations.0001_initial",
+        "description": "Client.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Client',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('ip', models.CharField(max_length=50, unique=True)),",
+        "detail": "Client.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "Client.migrations.0002_client_status",
+        "description": "Client.migrations.0002_client_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Client', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='client',\n            name='status',\n            field=models.IntegerField(choices=[(0, 'Online'), (1, 'Offline')], default=1),\n        ),",
+        "detail": "Client.migrations.0002_client_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "Client.migrations.0003_alter_client_status",
+        "description": "Client.migrations.0003_alter_client_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Client', '0002_client_status'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='client',\n            name='status',\n            field=models.IntegerField(choices=[(0, 'Online'), (1, 'Offline')], default=1),\n        ),",
+        "detail": "Client.migrations.0003_alter_client_status",
+        "documentation": {}
+    },
+    {
+        "label": "ClientConfig",
+        "kind": 6,
+        "importPath": "Client.apps",
+        "description": "Client.apps",
+        "peekOfCode": "class ClientConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Client'",
+        "detail": "Client.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "kind": 6,
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "peekOfCode": "class Client(models.Model):\n    ip = models.CharField(max_length=50, unique=True)\n    name = models.CharField(max_length=100)\n    joined = models.DateTimeField(auto_now_add=True, auto_now=False)\n    status = models.IntegerField(choices=STATUS_CHOICES, default=1)\n    def __str__(self):\n        return f\"{self.name} {self.ip} {STATUS_CHOICES[self.status][1]}\"",
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "Client.models",
+        "description": "Client.models",
+        "peekOfCode": "STATUS_CHOICES = [\n    (0, 'Online'),\n    (1, 'Offline')\n]\n# Create your models here.\nclass Client(models.Model):\n    ip = models.CharField(max_length=50, unique=True)\n    name = models.CharField(max_length=100)\n    joined = models.DateTimeField(auto_now_add=True, auto_now=False)\n    status = models.IntegerField(choices=STATUS_CHOICES, default=1)",
+        "detail": "Client.models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "Runner",
+        "kind": 6,
+        "importPath": "runner",
+        "description": "runner",
+        "peekOfCode": "class Runner:\n    def __init__(self):\n        self.possibles = ['172', '192', '127']\n        self.ports = [9877, 9922, 5041, 2982, 7309]\n        self.private_ip, self.subnet = self.get_private_ip_and_subnet()\n    def get_private_ip_and_subnet(self):\n        default_gws = netifaces.gateways().get('default', {})\n        for interface in netifaces.interfaces():\n            for addr in netifaces.ifaddresses(interface).get(netifaces.AF_INET, []):\n                if (ip := addr['addr']).split('.')[0] in self.possibles:",
+        "detail": "runner",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "runner",
+        "description": "runner",
+        "peekOfCode": "def get_session():\n    if not hasattr(thread_local, 'session'):\n        thread_local.session = requests.Session()\n    return thread_local.session\nclass Runner:\n    def __init__(self):\n        self.possibles = ['172', '192', '127']\n        self.ports = [9877, 9922, 5041, 2982, 7309]\n        self.private_ip, self.subnet = self.get_private_ip_and_subnet()\n    def get_private_ip_and_subnet(self):",
+        "detail": "runner",
+        "documentation": {}
+    },
+    {
+        "label": "thread_local",
+        "kind": 5,
+        "importPath": "runner",
+        "description": "runner",
+        "peekOfCode": "thread_local = threading.local()\nos.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"backend.settings\")\ndjango.setup()\nfrom Client.models import Client\ndef get_session():\n    if not hasattr(thread_local, 'session'):\n        thread_local.session = requests.Session()\n    return thread_local.session\nclass Runner:\n    def __init__(self):",
+        "detail": "runner",
+        "documentation": {}
+    },
+    {
+        "label": "ServerFinder",
+        "kind": 6,
+        "importPath": "server_finder",
+        "description": "server_finder",
+        "peekOfCode": "class ServerFinder:\n    def __init__(self):\n        self.possibles = ['172', '192', '127']\n        self.ports = [9877, 9922, 5041, 2982, 7309]\n        self.private_ip, self.subnetMask = self.get_private_ip_and_subnet()\n        self.network = self.get_network()\n        self.server = None\n    def run(self):\n        self.server = self.find_server()\n        return self.server",
+        "detail": "server_finder",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "kind": 2,
+        "importPath": "server_finder",
+        "description": "server_finder",
+        "peekOfCode": "def get_session():\n    if not hasattr(thread_local, 'session'):\n        thread_local.session = requests.Session()\n    return thread_local.session\nclass ServerFinder:\n    def __init__(self):\n        self.possibles = ['172', '192', '127']\n        self.ports = [9877, 9922, 5041, 2982, 7309]\n        self.private_ip, self.subnetMask = self.get_private_ip_and_subnet()\n        self.network = self.get_network()",
+        "detail": "server_finder",
+        "documentation": {}
+    },
+    {
+        "label": "thread_local",
+        "kind": 5,
+        "importPath": "server_finder",
+        "description": "server_finder",
+        "peekOfCode": "thread_local = threading.local()\ndef get_session():\n    if not hasattr(thread_local, 'session'):\n        thread_local.session = requests.Session()\n    return thread_local.session\nclass ServerFinder:\n    def __init__(self):\n        self.possibles = ['172', '192', '127']\n        self.ports = [9877, 9922, 5041, 2982, 7309]\n        self.private_ip, self.subnetMask = self.get_private_ip_and_subnet()",
+        "detail": "server_finder",
+        "documentation": {}
+    }
+]
