@@ -39,8 +39,10 @@ flutter run -v
 ## Screenshots:
 
 ### Chat Screen:
-![Login Screen](../mockups/chat_screen_android-m.png)  
-![Login Screen](../mockups/chat_screen_windows-m.png)  
+<div style="display: flex; gap: 10px;">
+  <img src="../mockups/chat_screen_android-m.png" alt="Android Chat Screen" width="300" />
+  <img src="../mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" width="300" />
+</div>
 
 A secure and intuitive login interface that allows users to authenticate easily.
 
