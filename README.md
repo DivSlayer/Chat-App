@@ -45,3 +45,4 @@ Experience real-time communication with a modern and responsive design.
 Experience real-time communication with a modern and responsive design.
 
 ---
+Thank you for choosing ChatApp Project! 🚀
