@@ -56,8 +56,8 @@ Experience real-time communication with a modern and responsive design.
 
 ### Chat Interface:
 <div style="display: flex; gap: 10px;width:100%;">
-  <img src="../mockups/chat_screen_android-m.png" alt="Android Chat Screen" width="50%" />
-  <img src="../mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" width="50%" />
+  <img src="../mockups/chat_screen_android-m.png" alt="Android Chat Screen" />
+  <img src="../mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" />
 </div>
 
 
@@ -65,4 +65,4 @@ A secure and intuitive login interface that allows users to authenticate easily.
 
 ---
 
-Thank you for choosing ChatApp Backend! 🚀
+Thank you for choosing ChatApp Project! 🚀
