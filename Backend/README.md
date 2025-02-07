@@ -24,8 +24,9 @@ A robust backend solution built with Django designed to power real-time chat app
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ChatAppBackend.git
-   cd ChatAppBackend
+   git clone https://github.com/geeksloths/Chat-App.git
+   cd Chat-App
+   cd Backend
    ```
 2. Install dependencies:
   
