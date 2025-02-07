@@ -5,6 +5,7 @@ Automat==24.8.1
 cffi==1.17.1
 constantly==23.10.4
 cryptography==44.0.0
+daphne==4.1.2
 dj-static==0.0.6
 Django==5.0
 hyperlink==21.0.0
