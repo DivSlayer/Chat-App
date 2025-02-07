@@ -23,25 +23,23 @@ A comprehensive chat application consisting of a backend and frontend. The backe
 ## Screenshots:
 
 ### Server Finder Screen:
-<div style="display: flex; gap: 10px;width:100%;">
-  <img src="./mockups/login-android-m.png" alt="Android Chat Screen" width="50%" />
-  <img src="./mockups/login-windows-m.png" alt="Windows Chat Screen" width="50%" />
-</div>
+| Android Server Finder Screen | Windows Server Finder Screen |
+|----------------------|----------------------|
+| <img src="./mockups/server_finder_android_m.png" alt="Android" /> | <img src="./mockups/server_finder_windows_m.png" alt="Windows" /> |
 
 Server Finder screen.
 
 ### Login Screen:
-<div style="display: flex; gap: 10px;width:100%;">
-  <img src="./mockups/server_finder_android_m.png" alt="Android Chat Screen" width="50%" />
-  <img src="./mockups/server_finder_windows_m.png" alt="Windows Chat Screen" width="50%" />
-</div>
+| Android Login Screen | Windows Login Screen |
+|----------------------|----------------------|
+| <img src="./mockups/login-android-m.png" alt="Android" /> | <img src="./mockups/login-windows-m.png" alt="Windows" /> |
 
 Experience real-time communication with a modern and responsive design.
 
 ### Chat Interface:
 | Android Chat Screen | Windows Chat Screen |
 |----------------------|----------------------|
-| <img src="../mockups/chat_screen_android-m.png" alt="Android" width="300" /> | <img src="../mockups/chat_screen_windows-m.png" alt="Windows" width="300" /> |
+| <img src="./mockups/chat_screen_android-m.png" alt="Android" /> | <img src="./mockups/chat_screen_windows-m.png" alt="Windows" /> |
 
 
 Experience real-time communication with a modern and responsive design.
