@@ -5,8 +5,8 @@
 A comprehensive chat application consisting of a backend and frontend. The backend is built with Django, while the frontend uses Flutter for a cross-platform experience.
 
 ### Components:
-- **Backend**: [Django Backend](backend/README.md)
-- **Application**: [Flutter UI](application/README.md)
+- **Backend**: [Django Backend](Backend/README.md)
+- **Application**: [Flutter UI](Application/README.md)
 
 ---
 
