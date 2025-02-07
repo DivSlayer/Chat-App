@@ -28,12 +28,23 @@ A robust backend solution built with Django designed to power real-time chat app
    cd Chat-App
    cd Backend
    ```
-2. Install dependencies:
+2. Make an environment:
+  
+   ```bash
+   py -m venv .venv
+   ```
+3. Activate Environemnt:
+  
+   ```bash
+   cd .venv/scripts && activate #For windows
+   cd .venv/bin && source activate #For linux
+   ```
+4. Install dependencies:
   
    ```bash
    pip install -r requirements.txt
    ```
-3. Run Server:
+5. Run Server:
    Just Open Runner.exe or
    ```bash
    py runner.py
