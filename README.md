@@ -34,7 +34,7 @@ Server Finder screen.
 |----------------------|----------------------|
 | <img src="./mockups/login-android-m.png" alt="Android" /> | <img src="./mockups/login-windows-m.png" alt="Windows" /> |
 
-Experience real-time communication with a modern and responsive design.
+A secure and intuitive login interface that allows users to authenticate easily.
 
 ### Chat Interface:
 | Android Chat Screen | Windows Chat Screen |
