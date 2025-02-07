@@ -39,10 +39,10 @@ Server Finder screen.
 Experience real-time communication with a modern and responsive design.
 
 ### Chat Interface:
-<div style="display: flex; gap: 10px;width:100%;">
-  <img src="./mockups/chat_screen_android-m.png" alt="Android Chat Screen" width="50%" />
-  <img src="./mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" width="50%" />
-</div>
+| Android Chat Screen | Windows Chat Screen |
+|----------------------|----------------------|
+| <img src="../mockups/chat_screen_android-m.png" alt="Android" width="300" /> | <img src="../mockups/chat_screen_windows-m.png" alt="Windows" width="300" /> |
+
 
 Experience real-time communication with a modern and responsive design.
 
