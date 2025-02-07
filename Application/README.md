@@ -39,7 +39,7 @@ flutter run -v
 ## Screenshots:
 
 ### Chat Screen:
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 10px;width:100%;">
   <img src="../mockups/chat_screen_android-m.png" alt="Android Chat Screen" width="300" />
   <img src="../mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" width="300" />
 </div>
