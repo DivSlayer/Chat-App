@@ -20,13 +20,29 @@ A comprehensive chat application consisting of a backend and frontend. The backe
 
 ## Screenshots:
 
-### Login Screen:
-![Login Screen](login_screen.png)  
+## Screenshots:
 
-A secure and intuitive login interface that allows users to authenticate easily.
+### Server Finder Screen:
+<div style="display: flex; gap: 10px;width:100%;">
+  <img src="./mockups/login-android-m.png" alt="Android Chat Screen" width="50%" />
+  <img src="./mockups/login-windows-m.png" alt="Windows Chat Screen" width="50%" />
+</div>
+
+Server Finder screen.
+
+### Login Screen:
+<div style="display: flex; gap: 10px;width:100%;">
+  <img src="./mockups/server_finder_android_m.png" alt="Android Chat Screen" width="50%" />
+  <img src="./mockups/server_finder_windows_m.png" alt="Windows Chat Screen" width="50%" />
+</div>
+
+Experience real-time communication with a modern and responsive design.
 
 ### Chat Interface:
-![Chat Interface](chat_interface.png)  
+<div style="display: flex; gap: 10px;width:100%;">
+  <img src="./mockups/chat_screen_android-m.png" alt="Android Chat Screen" width="50%" />
+  <img src="./mockups/chat_screen_windows-m.png" alt="Windows Chat Screen" width="50%" />
+</div>
 
 Experience real-time communication with a modern and responsive design.
 
