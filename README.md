@@ -1,5 +1,6 @@
 # ChatApp Project
 <img src="./mockups/banner.png" alt="Android" />
+
 ## Overview: 
 A comprehensive chat application consisting of a backend and frontend. The backend is built with Django, while the frontend uses Flutter for a cross-platform experience.
 
