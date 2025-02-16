@@ -41,21 +41,21 @@ flutter run -v
 ### Server Finder Screen:
 | Android Server Finder Screen | Windows Server Finder Screen |
 |----------------------|----------------------|
-| <img src="./mockups/server_finder_android_m.png" alt="Android" /> | <img src="./mockups/server_finder_windows_m.png" alt="Windows" /> |
+| <img src="../mockups/server_finder_android_m.png" alt="Android" /> | <img src="../mockups/server_finder_windows_m.png" alt="Windows" /> |
 
 Server Finder screen.
 
 ### Login Screen:
 | Android Login Screen | Windows Login Screen |
 |----------------------|----------------------|
-| <img src="./mockups/login-android-m.png" alt="Android" /> | <img src="./mockups/login-windows-m.png" alt="Windows" /> |
+| <img src="../mockups/login-android-m.png" alt="Android" /> | <img src="../mockups/login-windows-m.png" alt="Windows" /> |
 
 A secure and intuitive login interface that allows users to authenticate easily.
 
 ### Chat Interface:
 | Android Chat Screen | Windows Chat Screen |
 |----------------------|----------------------|
-| <img src="./mockups/chat_screen_android-m.png" alt="Android" /> | <img src="./mockups/chat_screen_windows-m.png" alt="Windows" /> |
+| <img src="../mockups/chat_screen_android-m.png" alt="Android" /> | <img src="../mockups/chat_screen_windows-m.png" alt="Windows" /> |
 
 
 Experience real-time communication with a modern and responsive design.
