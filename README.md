@@ -1,6 +1,6 @@
 # ChatApp Project
-
-## Overview: 
+[English](README.md) | [فارسی](README-fa.md)
+### Overview:
 A comprehensive chat application consisting of a backend and frontend. The backend is built with Django, while the frontend uses Flutter for a cross-platform experience.
 
 ### Components:
@@ -9,40 +9,39 @@ A comprehensive chat application consisting of a backend and frontend. The backe
 
 ---
 
-## Quick Start:
+### Quick Start:
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/geeksloths/Chat-App.git
+   ```
 2. Navigate to the backend directory and follow the instructions in its README.md.
 
 3. In a separate terminal, navigate to the application directory and follow the instructions in its README.
 
-## Screenshots:
+### Screenshots:
 
-## Screenshots:
-
-### Server Finder Screen:
+#### Server Finder Screen:
 | Android Server Finder Screen | Windows Server Finder Screen |
 |----------------------|----------------------|
 | <img src="./mockups/server_finder_android_m.png" alt="Android" /> | <img src="./mockups/server_finder_windows_m.png" alt="Windows" /> |
 
 Server Finder screen.
 
-### Login Screen:
+#### Login Screen:
 | Android Login Screen | Windows Login Screen |
 |----------------------|----------------------|
-| <img src="./mockups/login-android-m.png" alt="Android" /> | <img src="./mockups/login-windows-m.png" alt="Windows" /> |
+| <img src="./mockups/login-android-m.png" alt="Android" /> | <img src=".\mockups\login-windows-m.png" alt="Windows" /> |
 
 A secure and intuitive login interface that allows users to authenticate easily.
 
-### Chat Interface:
+#### Chat Interface:
 | Android Chat Screen | Windows Chat Screen |
 |----------------------|----------------------|
 | <img src="./mockups/chat_screen_android-m.png" alt="Android" /> | <img src="./mockups/chat_screen_windows-m.png" alt="Windows" /> |
 
-
 Experience real-time communication with a modern and responsive design.
 
 ---
+
 Thank you for choosing ChatApp Project! 🚀
