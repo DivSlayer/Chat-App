@@ -13,7 +13,7 @@ A comprehensive chat application consisting of a backend and frontend. The backe
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/geeksloths/Chat-App.git
+   git clone https://github.com/DivSlayer/Chat-App.git
    ```
 2. Navigate to the backend directory and follow the instructions in its README.md.
 
