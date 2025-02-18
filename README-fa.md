@@ -16,7 +16,7 @@
   <li dir="rtl">
     این مخزن را کلون کنید:
    <pre style="margin-top:20px;text-align:left">
-   git clone https://github.com/geeksloths/Chat-App.git
+   git clone https://github.com/DivSlayer/Chat-App.git
    </pre>
   </li>
   <li dir="rtl">
