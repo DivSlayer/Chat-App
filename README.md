@@ -1,3 +1,5 @@
+![alt-text](mockups/banner.png "Header Card")
+
 # ChatApp Project
 [English](README.md) | [فارسی](README-fa.md)
 ### Overview:
