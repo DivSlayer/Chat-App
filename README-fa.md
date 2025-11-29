@@ -1,3 +1,5 @@
+![alt-text](mockups/banner.png "Header Card")
+
 <div dir="rtl" style="direction: rtl;text-align:right">
 
 # پروژه ChatApp
